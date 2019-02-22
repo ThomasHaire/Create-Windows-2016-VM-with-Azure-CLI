@@ -6,3 +6,6 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 + Local Install Here: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
 + Cloud Shell looks like this:
 + ![cloudshell](https://user-images.githubusercontent.com/26561917/53273904-6145d580-36c3-11e9-90f4-72da0eb40527.PNG)
+
+## Step 2. Make sure you are using Azure CLI v 2.0.30 or later
++ -	Use: az --version
