@@ -18,7 +18,7 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 + ![resourcegroup](https://user-images.githubusercontent.com/26561917/53274390-1a58df80-36c5-11e9-85c4-469f15de5b92.PNG)
 
 ## Step 5: Create VM using Az vm create command (This will take a few minutes to run)
-+ Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 number, and 1 special character
+Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 number, and 1 special character
 + az vm create --resource-group demoGroup --name comVM --image win2016datacenter --admin-username demoUser --admin-password demoPassword!2019
 + ![vm](https://user-images.githubusercontent.com/26561917/53274393-1b8a0c80-36c5-11e9-8172-28ec82db3344.PNG)
 
