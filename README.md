@@ -20,7 +20,6 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 ## Step 5: Create VM using Az vm create command (This will take a few minutes to run)
 Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 number, and 1 special character
 + az vm create --resource-group demoGroup --name comVM --image win2016datacenter --admin-username demoUser --admin-password demoPassword!2019
-+ ![vm](https://user-images.githubusercontent.com/26561917/53274393-1b8a0c80-36c5-11e9-8172-28ec82db3344.PNG)
 
 ## Step 6: Open Port 80 for web traffic
 + az vm open-port --port 80 --resource-group demoGroup --name comVM
@@ -31,7 +30,7 @@ Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 n
 ## Step 8: RDP into the new VM
 Use the VMs publicIP address
 + mstsc /v:theVMspublicIPaddress
-+ ![vmin](https://user-images.githubusercontent.com/26561917/53274533-918e7380-36c5-11e9-9eaa-a136a3e92ba5.PNG)
+
 
 # Optional
 ## Step 9: Clean up resources. Remove resource group and all VMs related to it
