@@ -15,11 +15,14 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 
 ## Step 4: Create a resource group
 + az group create --name demoGroup --location eastus
++ ![resourcegroup](https://user-images.githubusercontent.com/26561917/53359356-b6baf600-3900-11e9-9614-bc22afda6984.PNG)
 
 
 ## Step 5: Create VM using Az vm create command (This will take a few minutes to run)
 Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 number, and 1 special character
 + az vm create --resource-group demoGroup --name comVM --image win2016datacenter --admin-username demoUser --admin-password demoPassword!2019
++ ![vm](https://user-images.githubusercontent.com/26561917/53359358-b7ec2300-3900-11e9-91de-fc0b4f8caeb1.PNG)
+
 
 ## Step 6: Open Port 80 for web traffic
 + az vm open-port --port 80 --resource-group demoGroup --name comVM
