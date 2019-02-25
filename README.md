@@ -38,3 +38,6 @@ Use the VMs publicIP address
 # Optional
 ## ![trash](https://user-images.githubusercontent.com/26561917/53360911-cdfbe280-3904-11e9-8a74-19e66c002b8e.png) Step 9: Clean up resources. Remove resource group and all VMs related to it
 + az group delete --name demoGroup
+
+Cred:
+Icons made by Freepik from www.flaticon.com 
