@@ -4,7 +4,7 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 
 ## ![folder](https://user-images.githubusercontent.com/26561917/53360569-db649d00-3903-11e9-8173-aeb8525f1b51.png) Step 1. Install Azure CLI locally or use Azure Cloud Shell in Azure Portal
 + Local Install Here: [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?view=azure-cli-latest)
-+ Cloud Shell looks like this:
++ Cloud Shell looks like this: https://azure.microsoft.com/en-us/
 + ![cloudshell](https://user-images.githubusercontent.com/26561917/53273904-6145d580-36c3-11e9-90f4-72da0eb40527.PNG)
 
 ## ![plan](https://user-images.githubusercontent.com/26561917/53360789-81180c00-3904-11e9-9f21-64367d18525b.png) Step 2. Make sure you are using Azure CLI v 2.0.30 or later
