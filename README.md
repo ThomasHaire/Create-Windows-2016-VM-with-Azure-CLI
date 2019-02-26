@@ -8,8 +8,9 @@ Azure CLI (Command Line) manages Azure resources. You can use Azue CLI cmdlets t
 + ![cloudshell](https://user-images.githubusercontent.com/26561917/53273904-6145d580-36c3-11e9-90f4-72da0eb40527.PNG)
 
 ## ![plan](https://user-images.githubusercontent.com/26561917/53360789-81180c00-3904-11e9-9f21-64367d18525b.png) Step 2. Make sure you are using Azure CLI v 2.0.30 or later
+```
 + az --version
-
+```
 ## ![computer](https://user-images.githubusercontent.com/26561917/53360811-8f662800-3904-11e9-9e54-1054b5e0e087.png) Step 3. If using Azure CLI locally you have to login to Azure
 + az login
 
