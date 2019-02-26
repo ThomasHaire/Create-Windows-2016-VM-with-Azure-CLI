@@ -20,7 +20,7 @@ az login
 ``` 
 az group create --name demoGroup --location eastus 
 ```
-+ ![resourcegroup](https://user-images.githubusercontent.com/26561917/53359356-b6baf600-3900-11e9-9614-bc22afda6984.PNG)
+![resourcegroup](https://user-images.githubusercontent.com/26561917/53359356-b6baf600-3900-11e9-9614-bc22afda6984.PNG)
 
 
 ## ![blueprint](https://user-images.githubusercontent.com/26561917/53360827-97be6300-3904-11e9-9f73-f5590b6a2d85.png) Step 5: Create VM using Az vm create command (This will take a few minutes to run)
@@ -28,7 +28,7 @@ Password must be between 12-123 characters using 1 lower case, 1 upper case, 1 n
 ``` 
 az vm create --resource-group demoGroup --name comVM --image win2016datacenter --admin-username demoUser --admin-password demoPassword!2019
 ```
-+ ![vm](https://user-images.githubusercontent.com/26561917/53359358-b7ec2300-3900-11e9-91de-fc0b4f8caeb1.PNG)
+![vm](https://user-images.githubusercontent.com/26561917/53359358-b7ec2300-3900-11e9-91de-fc0b4f8caeb1.PNG)
 
 
 ## ![tour](https://user-images.githubusercontent.com/26561917/53360855-a6a51580-3904-11e9-8602-0722085ba694.png) Step 6: Open Port 80 for web traffic
